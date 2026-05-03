@@ -5,6 +5,7 @@ import ProductList from "../pages/ProductList";
 import ProductDetail from "../pages/ProductDetail";
 import Cart from "../pages/Cart";
 import { getProducts, getProductById } from "../api/products";
+import LoginPage from "../pages/LoginPage";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,13 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+  {
+    path: "/login",
+    element: <LoginPage />
+  },
+
+],
+{base: "/ccwe1-app-hook-form-03-05-69/"},
+);
 
 export default router;
