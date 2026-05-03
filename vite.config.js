@@ -5,5 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/ccwe1-app-hook-form-03-05-69/"
+  base: "/ccwe1-mini-product-store-app1/"
 })

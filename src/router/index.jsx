@@ -38,7 +38,7 @@ const router = createBrowserRouter([
   },
 
 ],
-{ basename: "/ccwe1-app-hook-form-03-05-69/" },
+{ basename: "/ccwe1-mini-product-store-app1/" },
 );
 
 export default router;
